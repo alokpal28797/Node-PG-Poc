@@ -1,0 +1,22 @@
+{
+  "name": "business-central-retrieve-latest-token-service",
+  "version": "1.0.0",
+  "main": "index.js",
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.134",
+    "@types/pg": "^8.11.2",
+    "serverless-dotenv-plugin": "^6.0.0",
+    "serverless-plugin-typescript": "^2.1.5"
+  }
+}

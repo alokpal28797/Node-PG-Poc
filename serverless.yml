@@ -1,0 +1,17 @@
+service: business-central-retrive-token-service # Replace with your service name
+
+useDotenv: true
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-dotenv-plugin
+
+provider:
+  name: aws
+  runtime: nodejs18.x # Or choose your preferred Node.js runtime version
+  region: us-east-1 # Replace with your preferred AWS region
+
+functions:
+  retriveBusinessToken:
+    handler: app/handler.handler 
+ 
